@@ -1,0 +1,36 @@
+.container{  
+ color:black;
+ background-color: beige;
+ height:70vh;
+ display:flex;
+ flex-wrap:wrap;
+ 
+/*flex-direction: column;
+flex-wrap:wrap;
+gap:10px;
+flex-flow:column wrap;row-wrap */
+/* center */
+justify-content: space-between;
+align-items: center;
+align-content: flex-start;
+}
+.box{
+    border:5px solid black;
+    width:100px;
+    height:150px;
+    flex-basis:25%;
+    
+
+    
+}
+#box1{
+    /* order: 1; */
+    /* flex-grow:1; */
+}
+#box2{
+    /* order:2;
+    /* flex-grow: 2; */
+    flex-shrink: 2; */
+
+    
+}

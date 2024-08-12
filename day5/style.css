@@ -1,0 +1,28 @@
+#name:hover{
+    border:2px solid pink;
+}
+/*ul li:first-child{
+background-color: burlywood;
+
+}*/
+/* ul li:nth-child(2n){
+background-color: darkgrey;
+}
+::selection{
+    background-color: darkcyan;
+    /* color:black;
+} */
+/* #para::first-line{
+   background-color: dimgrey; 
+   font-size:30px;
+} */ 
+ /* #para::after{
+    content:"hello techno";
+    background-color: brown;
+
+ } */
+ #para:hover::after{
+    content:"hello techno";
+    background-color: brown;
+
+ }
